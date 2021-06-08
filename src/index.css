@@ -11,3 +11,76 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.divContainer {
+  position: relative;
+  width: 100%;
+}
+
+.divContainer img {
+  width: 100%;
+  height: auto;
+}
+
+.divContainer .btnGeekz {
+  position: absolute;
+  top: 23%;
+  left: 79%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.divContainer .btnMonokuro {
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.divContainer .btnPinkRoom {
+  position: absolute;
+  top: 30%;
+  left: 79%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.divContainer .btn:hover {
+  background-color: black;
+}
+
+.divContainer .btnTransparent {
+  position: absolute;
+  top: 72%;
+  left: 2%;
+  background-color: transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  height:120px;
+  width:120px;
+}
